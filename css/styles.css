@@ -1,4 +1,16 @@
+body {
+  background-color: green;
+}
+
+.top {
+  font-family: Arial, Helvetica, sans-serial;
+}
+
 .column {
   background-color: black;
   float: right;
+  width: 250px;
+  height:fit-content;
+  color: white;
+  font-family: sans-serif;
 }
