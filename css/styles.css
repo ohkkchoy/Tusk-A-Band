@@ -1,16 +1,57 @@
 body {
-  background-color: green;
+  background-color: rgb(128, 0, 128);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ .sidebar {
+  float: right;
+  background-color: aqua;
+  border: 20px solid blue;
+ font-family: cursive;
+ }
+
+
 .top {
-  font-family: Arial, Helvetica, sans-serial;
+  background-color: yellowgreen;
+  text-align: center;
+  width: 100%;
+  margin-left: 0%;
 }
 
 .column {
-  background-color: black;
-  float: right;
-  width: 250px;
-  height:fit-content;
-  color: white;
-  font-family: sans-serif;
+  float: left;
+}
+
+.image_container {
+  background-color:yellow;
+  width: 200px;
+  height: 800px;
+  display: inline-block;
+  overflow: hidden;
+  border: 10px solid black;
+}
+
+.image_container img {
+  width: 100%;
+}
+
+.kazoo {
+  margin: 10px;
+  padding: 10px;
+  height: fit-content;
+  float:left;
+  box-sizing: border-box;
+
+}
+.img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.h3 {
+  font-family:monospace;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
 }
